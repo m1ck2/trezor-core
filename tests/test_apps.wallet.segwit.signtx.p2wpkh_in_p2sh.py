@@ -18,7 +18,7 @@ from apps.common import coins
 from apps.wallet.sign_tx import signing
 
 
-class TestSignSegwitTx(unittest.TestCase):
+class TestSignSegwitTxP2WPKHInP2SH(unittest.TestCase):
     # pylint: disable=C0301
 
     def test_send_p2wpkh_in_p2sh(self):
